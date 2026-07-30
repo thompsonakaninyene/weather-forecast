@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Page</title>
+    <link rel="stylesheet" href="/syle.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <span><img src="/logo (1).svg" alt="svg" /></span>
+
+        <button class="button-btn">
+          <span class="unit"
+            ><img src="/logo.svg" alt="svg" />Unit
+            <img src="/icon-error.svg" alt="svg"
+          /></span>
+        </button>
+      </div>
+    </header>
+    <!--Part 2-->
+    <section>
+      <h2 class="how-sky">How's the sky looking today?</h2>
+        <div class="search-div">
+      <div class="the-sky">
+       <i class="search-icon"><img src="/icon-search.svg" alt=""></i>
+        <input type="text" name="input" placeholder="Search for a place" />
+       
+      </div>
+       <button class="search-btn">Search</button>
+      </div>
+      
+    </section>
+    <!--Part 3-->
+    <section>
+      <div class="General-container">
+        <div class="degree-wind">
+          <img class="image" src="./bg-today-large.svg" alt="svg" />
+          <div class="clear-wind">
+            <div class="like-btn-one">
+              <h5>Feel Like</h5>
+              <p>18&deg;</p>
+            </div>
+            <div class="like-btn-one">
+              <h5>Humidity</h5>
+              <p>46%</p>
+            </div>
+            <div class="like-btn-one">
+              <h5>Wind</h5>
+              <p>14 km/h</p>
+            </div>
+            <div class="like-btn-one">
+              <h5>Precipitation</h5>
+              <p>0 mm</p>
+            </div>
+          </div>
+          <!--Daily forecast-->
+          <h3>Daily forecast</h3>
+          <div class="normal">
+            <div class="weather-btn">
+              <p>Tue</p>
+              <img class="tue-img" src="/icon-rain.webp" alt="webp" />
+              <span class="space"
+                ><p>20&deg;</p>
+                <p>14&deg;</p></span
+              >
+            </div>
+            <div class="weather-btn">
+              <p>Wed</p>
+              <img class="tue-img" src="/icon-rain (1).webp" alt="webp" />
+              <span class="space"
+                ><p>21&deg;</p>
+                <p>15&deg;</p></span
+              >
+            </div>
+            <div class="weather-btn">
+              <p>Thu</p>
+              <img class="tue-img" src="/icon-sunny (1).webp" alt="webp" />
+              <span class="space"
+                ><p>24&deg;</p>
+                <p>14&deg;</p></span
+              >
+            </div>
+            <div class="weather-btn">
+              <p>Fri</p>
+              <img class="tue-img" src="/icon-rain.webp" alt="webp" />
+              <span class="space"
+                ><p>25&deg;</p>
+                <p>13&deg;</p></span
+              >
+            </div>
+
+            <div class="weather-btn">
+              <p>Sat</p>
+              <img class="tue-img" src="/icon-sunny.webp" alt="webp" />
+              <span class="space"
+                ><p>21&deg;</p>
+                <p>15&deg;</p></span
+              >
+            </div>
+            <div class="weather-btn">
+              <p>Sun</p>
+              <img class="tue-img" src="/icon-storm.webp" alt="webp" />
+              <span class="space"
+                ><p>25&deg;</p>
+                <p>16&deg;</p></span
+              >
+            </div>
+            <div class="weather-btn">
+              <p>Mon</p>
+              <img class="tue-img" src="/icon-fog (1).webp" alt="webp" />
+              <span class="space"
+                ><p>24&deg;</p>
+                <p>15&deg;</p></span
+              >
+            </div>
+          </div>
+        </div>
+        <!--Honest forecast-->
+        <div class="honest-forecast">
+          <div class="fore-cast">
+            <p>Hourly forecast</p>
+            <button class="tue">
+              Tuesday <img src="/icon-error.svg" alt="svg" />
+            </button>
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-partly-cloudy.webp"
+                  alt="webp"
+                />3PM</span
+              >
+
+              <p>20&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-rain.webp"
+                  alt="webp"
+                />4PM</span
+              >
+              <p>20&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-sunny (1).webp"
+                  alt="webp"
+                />5PM</span
+              >
+              <p>21&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-partly-cloudy.webp"
+                  alt="webp"
+                />6PM</span
+              >
+              <p>19&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-storm.webp"
+                  alt="webp"
+                />7PM</span
+              >
+              <p>18&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-fog (1).webp"
+                  alt="webp"
+                />8PM</span
+              >
+              <p>18&deg;</p></span
+            >
+          </div>
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-storm.webp"
+                  alt="webp"
+                />9PM</span
+              >
+              <p>110&deg;</p></span
+            >
+          </div>
+
+          <div class="guess-weather">
+            <span class="web-span"
+              ><span id="force"
+                ><img
+                  class="look-weather"
+                  src="/icon-partly-cloudy.webp"
+                  alt="webp"
+                />10PM</span
+              >
+              <p>10&deg;</p></span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
